@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="x-icon/image" href="./images/tesla.png">
+    <title>Tesla</title>
+    <link rel="stylesheet" href="dashboard.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="./images/logo.png" alt="" class="logo" />
+
+        <div class="search-box">
+          <span class="material-symbols-rounded"> search </span>
+          <input type="text" placeholder="Search" />
+        </div>
+
+        <div class="profile-box">
+          <div class="theme-box">
+            <i class="bx bxs-sun" id="sun"></i>
+            <i class="bx bxs-moon" id="moon"></i>
+          </div>
+
+          <div class="profile-content">
+            <img src="./images/profile-1.jpg" alt="profile" />
+
+            <h5>Sagnik</h5>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+
+          <button id="menu-btn">
+            <i class="bx bx-menu-alt-right"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- ===================== END NAV ====================== -->
+
+    <main>
+      <aside>
+        <div class="middle">
+          <div class="menu-icon">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <div class="menu-content-box">
+            <i class="bx bxs-dashboard"></i>
+            <h3>Dashboard</h3>
+          </div>
+
+          <div class="menu-content-box active">
+            <i class="bx bx-money-withdraw"></i>
+            <h3>Exchange</h3>
+          </div>
+
+          <div class="menu-content-box">
+            <i class="bx bxs-wallet-alt"></i>
+            <h3>Wallet</h3>
+          </div>
+
+          <div class="menu-content-box">
+            <i class="bx bx-transfer"></i>
+            <h3>Transaction</h3>
+          </div>
+
+          <div class="menu-content-box">
+            <i class="bx bxs-analyse"></i>
+            <h3>Analytics</h3>
+          </div>
+
+          <div class="menu-content-box">
+            <i class="bx bxs-chat"></i>
+            <h3>Messages</h3>
+          </div>
+
+          <div class="menu-content-box">
+            <i class="bx bxs-help-circle"></i>
+            <h3>Help Center</h3>
+          </div>
+
+          <div class="menu-content-box">
+            <i class="bx bxs-cog"></i>
+            <h3>Settings</h3>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div class="menu-update-box">
+            <i class="bx bx-timer"></i>
+            <h4>Updates Available</h4>
+            <div class="update-box-content">
+              <small>Security Updates</small>
+              <small>General Updates</small>
+            </div>
+            <button class="update">Update Now</button>
+          </div>
+        </div>
+      </aside>
+      <!-- =========== END ASIDE ================== -->
+
+      <middle>
+        <div class="middle-first">
+          <h1>Overview</h1>
+          <input type="date" />
+        </div>
+        <!-- =======end middle-first======== -->
+
+        <div class="middle-second-cards">
+          <div class="card">
+            <div class="card-top">
+              <div class="btc-box">
+                <img src="./images/BTC.png" alt="" />
+                <h2>BTC</h2>
+              </div>
+
+              <img src="./images/visa.png" alt="" />
+            </div>
+
+            <div class="card-middle">
+              <h1>$827,199</h1>
+
+              <img src="./images/card chip.png" alt="" />
+            </div>
+
+            <div class="card-bottom">
+              <div class="card-bottom-left">
+                <summary>Card holder</summary>
+                <h4>JOHN DOE</h4>
+              </div>
+
+              <div class="card-bottom-right">
+                <div class="card-bottom-right-box1">
+                  <summary>Expiry</summary>
+                  <h4>08/23</h4>
+                </div>
+
+                <div class="card-bottom-right-box2">
+                  <summary>CW</summary>
+                  <h4>123</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <div class="btc-box">
+                <img src="./images/ETH.png" alt="" />
+                <h2>ETH</h2>
+              </div>
+
+              <img src="./images/visa.png" alt="" />
+            </div>
+
+            <div class="card-middle">
+              <h1>$827,199</h1>
+
+              <img src="./images/card chip.png" alt="" />
+            </div>
+
+            <div class="card-bottom">
+              <div class="card-bottom-left">
+                <summary>Card holder</summary>
+                <h4>JOHN DOE</h4>
+              </div>
+
+              <div class="card-bottom-right">
+                <div class="card-bottom-right-box1">
+                  <summary>Expiry</summary>
+                  <h4>08/23</h4>
+                </div>
+
+                <div class="card-bottom-right-box2">
+                  <summary>CW</summary>
+                  <h4>123</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-top">
+              <div class="btc-box">
+                <img src="./images/BTC.png" alt="" />
+                <h2>BTC</h2>
+              </div>
+
+              <img src="./images/visa.png" alt="" />
+            </div>
+
+            <div class="card-middle">
+              <h1>$827,199</h1>
+
+              <img src="./images/card chip.png" alt="" />
+            </div>
+
+            <div class="card-bottom">
+              <div class="card-bottom-left">
+                <summary>Card holder</summary>
+                <h4>JOHN DOE</h4>
+              </div>
+
+              <div class="card-bottom-right">
+                <div class="card-bottom-right-box1">
+                  <summary>Expiry</summary>
+                  <h4>08/23</h4>
+                </div>
+
+                <div class="card-bottom-right-box2">
+                  <summary>CW</summary>
+                  <h4>123</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============= END MIDDLE SECOND ============== -->
+
+        <div class="middle-third">
+          <div class="middle-third-box">
+            <h2>Income</h2>
+            <details>
+              <h2>$9005</h2>
+              <p>-0.5%</p>
+            </details>
+            <p>Compared to $26938 last month</p>
+          </div>
+
+          <div class="middle-third-box">
+            <h2>Expenses</h2>
+            <details>
+              <h2>$10205</h2>
+              <p>-0.20%</p>
+            </details>
+            <p>Compared to $11912 last month</p>
+          </div>
+
+          <div class="middle-third-box">
+            <h2>Cashback</h2>
+            <details>
+              <h2>$8906</h2>
+              <p>+0.15%</p>
+            </details>
+            <p>Compared to $3028 last month</p>
+          </div>
+
+          <div class="middle-third-box">
+            <h2>Income</h2>
+            <details>
+              <h2>$5078</h2>
+              <p>-0.35%</p>
+            </details>
+            <p>Comparedd to $114234 last month</p>
+          </div>
+        </div>
+
+        <!-- ================= End middle third ================= -->
+
+        <div class="middle-fourth">
+          <div class="middle-fourth-left">
+            <h2>Fast</h2>
+            <h2>Payment</h2>
+          </div>
+
+          <div class="middle-fourth-right">
+            <div class="fourth-right-top">
+              <span>+</span>
+              <span>
+                <h5>Training</h5>
+                <h4>$50</h4>
+              </span>
+              <span>
+                <h5>Internet</h5>
+                <h4>$40</h4>
+              </span>
+              <span>
+                <h5>Gas</h5>
+                <h4>$190</h4>
+              </span>
+              <span>
+                <h5>Movies</h5>
+                <h4>$35</h4>
+              </span>
+            </div>
+
+            <div class="fourth-right-bottom">
+              <span>
+                <h5>Education</h5>
+                <h4>$999</h4>
+              </span>
+              <span>
+                <h5>Electricity</h5>
+                <h4>$109</h4>
+              </span>
+              <span>
+                <h5>Food</h5>
+                <h4>$399</h4>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- =============== end middle fourth ==================== -->
+        <canvas class="chart">
+            
+        </canvas>
+      </middle>
+      <!-- ============= middle ================ -->
+
+      <end>
+        <div class="end-top">
+          <div class="end-top-head">
+            <h2>Investments</h2>
+            <div class="end-top-icon">
+              <h3>More</h3>
+              <i class="bx bx-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="end-top-body">
+            <img src="./images/uniliver.png" alt="unilever" />
+            <h3>Uniliver</h3>
+            <div class="end-top-body-content">
+              <summary>7 Nov 2021</summary>
+              <p>9:14pm</p>
+            </div>
+            <div class="end-top-body-content">
+              <summary>1402</summary>
+              <p>Bonds</p>
+            </div>
+            <div class="end-top-body-content">
+              <h4>$20,033</h4>
+              <p>-4.2%</p>
+            </div>
+          </div>
+
+          <div class="end-top-body">
+            <img src="./images/tesla.png" alt="unilever" />
+            <h3>Tesla</h3>
+            <div class="end-top-body-content">
+              <summary>7 Nov 2021</summary>
+              <p>9:14pm</p>
+            </div>
+            <div class="end-top-body-content">
+              <summary>1402</summary>
+              <p>Bonds</p>
+            </div>
+            <div class="end-top-body-content">
+              <h4>$20,033</h4>
+              <p>+50.2%</p>
+            </div>
+          </div>
+
+          <div class="end-top-body">
+            <img src="./images/monster.png" alt="unilever" />
+            <h3>Monster</h3>
+            <div class="end-top-body-content">
+              <summary>7 Nov 2021</summary>
+              <p>9:14pm</p>
+            </div>
+            <div class="end-top-body-content">
+              <summary>1402</summary>
+              <p>Bonds</p>
+            </div>
+            <div class="end-top-body-content">
+              <h4>$20,033</h4>
+              <p>+34.2%</p>
+            </div>
+          </div>
+
+          <div class="end-top-body">
+            <img src="./images/mcdonalds.png" alt="unilever" />
+            <h3>McDonalds</h3>
+            <div class="end-top-body-content">
+              <summary>7 Nov 2021</summary>
+              <p>9:14pm</p>
+            </div>
+            <div class="end-top-body-content">
+              <summary>1402</summary>
+              <p>Bonds</p>
+            </div>
+            <div class="end-top-body-content">
+              <h4>$20,033</h4>
+              <p>-4.2%</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- =========== finish end top============= -->
+
+        <div class="end-bottom">
+
+          <div class="end-bottom-head">
+            <h2>Recent Transactions</h2>
+            <div class="end-bottom-icon">
+              <h3>More</h3>
+              <i class="bx bx-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="end-bottom-body">
+
+            <div class="end-btm-music">
+              <i class='bx bx-headphone'></i>
+              <div class="end-btm-music-content">
+                <h3>Music</h3>
+                <summary>20.11.2021</summary>
+              </div>
+            </div>
+
+            <div class="end-btm-visa-card">
+              <div class="common-end-btm-img bg-danger">
+                <img src="./images/visa.png" alt="visa">
+              </div>
+              
+              <div class="end-btm-visa-card-content">
+                 <summary>*2757</summary>
+                 <p>Credit Card</p>
+              </div>
+            </div>
+
+            <h4>-$20</h4>
+
+          </div>
+
+          <div class="end-bottom-body">
+
+            <div class="end-btm-music">
+              <i class='bx bxs-shopping-bag' ></i>
+              <div class="end-btm-music-content">
+                <h3>Shopping</h3>
+                <summary>20.11.2021</summary>
+              </div>
+            </div>
+
+            <div class="end-btm-visa-card">
+              <div class="common-end-btm-img bg-primary">
+                <img src="./images/visa.png" alt="visa">
+              </div>
+              
+              <div class="end-btm-visa-card-content">
+                 <summary>*2757</summary>
+                 <p>Credit Card</p>
+              </div>
+            </div>
+
+            <h4>-$799</h4>
+
+          </div>
+
+          <div class="end-bottom-body">
+
+            <div class="end-btm-music">
+              <i class='bx bx-restaurant' ></i>
+              <div class="end-btm-music-content">
+                <h3>Restaurant</h3>
+                <summary>20.11.2021</summary>
+              </div>
+            </div>
+
+            <div class="end-btm-visa-card">
+              <div class="common-end-btm-img bg-dark">
+                <img src="./images/master card.png" alt="visa">
+              </div>
+              
+              <div class="end-btm-visa-card-content">
+                 <summary>*8257</summary>
+                 <p>Master Card</p>
+              </div>
+            </div>
+
+            <h4>-$50</h4>
+
+          </div>
+
+
+          <div class="end-bottom-body">
+
+            <div class="end-btm-music">
+              <i class='bx bxs-game' ></i>
+              <div class="end-btm-music-content">
+                <h3>Games</h3>
+                <summary>20.11.2021</summary>
+              </div>
+            </div>
+
+            <div class="end-btm-visa-card">
+              <div class="common-end-btm-img bg-danger">
+                <img src="./images/visa.png" alt="visa">
+              </div>
+              
+              <div class="end-btm-visa-card-content">
+                 <summary>*2757</summary>
+                 <p>Credit Card</p>
+              </div>
+            </div>
+
+            <h4>-$44</h4>
+
+          </div>
+
+          <div class="end-bottom-body">
+
+            <div class="end-btm-music">
+              <i class='bx bxs-capsule' ></i>
+              <div class="end-btm-music-content">
+                <h3>Pharmacy</h3>
+                <summary>20.11.2021</summary>
+              </div>
+            </div>
+
+            <div class="end-btm-visa-card">
+              <div class="common-end-btm-img bg-primary">
+                <img src="./images/visa.png" alt="visa">
+              </div>
+              
+              <div class="end-btm-visa-card-content">
+                 <summary>*1920</summary>
+                 <p>Credit Card</p>
+              </div>
+            </div>
+
+            <h4>-$30</h4>
+
+          </div>
+        </div>
+
+        
+
+      </end>
+      <!-- ============== end ============= -->
+    </main>
+    
+    <!-- ============chart js ================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+    <script src="dashboard.js"></script>
+
+    <!-- <script>
+      const chart = document.getElementById("chart").getContext('2d');
+
+new Chart(chart, {
+  type: 'line',
+  data: {
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+    datasets: [
+      {
+        label: 'My First Dataset',
+        data: [65, 59, 80, 81, 56, 55, 40],
+        borderColor: 'rgb(255, 99, 132)',
+        fill: false
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    }
+  }
+});
+    </script> -->
+  </body>
+</html>
